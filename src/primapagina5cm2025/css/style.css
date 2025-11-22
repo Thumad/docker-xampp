@@ -1,0 +1,55 @@
+nav{
+    display:flex;
+    color:aqua;
+    justify-content: center;
+}
+
+h1{
+    color:red;
+}
+h2{
+    color:blue;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+header h1
+{
+    margin: auto;
+}
+
+/*Distanzia gli elementi della li*/
+nav li{
+    padding: 25px;
+}
+
+/*Sottolinea di rosso il link selezionato*/
+nav a:hover {
+    /*     background-color: rgb(250, 250, 250); */
+        text-decoration: red underline !important;
+}
+
+footer{
+    padding: 20px;
+    background-color: blue;
+    font-size: 0.5m;
+    color: white    
+}
+.orario{
+    color:blue;
+}
+/**{
+    color:green;
+}*/
+
+#titolo{
+    background-color: black;
+}

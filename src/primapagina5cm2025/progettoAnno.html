@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetto Anno 5CM</title>
+    <link rel="icon" type="image/x-icon" href="img/iconaITIS.svg">
+    <style type="text/css">
+        table, th, td{
+            padding: 1em;
+            width: fit-content;
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        img{
+            border-radius: 8px;
+            display: block;
+            width: 50%;
+        }
+
+        #titolo{
+            text-align: center;
+            text-decoration-line: overline underline;
+            text-decoration-color: red;
+        }
+
+        .inf {
+         background-color: cornflowerblue;
+        }
+
+        .sis {
+         background-color:chartreuse;
+        }
+
+        .mat {
+         background-color:chocolate;
+        }
+
+        .tps {
+         background-color:magenta;
+        }
+
+        .rel {
+         background-color:brown;
+        }
+
+        .smot {
+         background-color:gold;
+        }
+
+        .ita {
+         background-color:darkorchid;
+        }
+
+        .gpoi {
+         background-color:darkolivegreen;
+        }
+
+        .ing {
+         background-color:springgreen;
+        }
+
+        .ia {
+         background-color:lightgreen;
+        }
+
+        .pot {
+         background-color:silver;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/FoglioStile.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>Marconi Pieralisi - Jesi</h1></a> <!--Titoli e sottotitoli esistenti-->
+        <!--<h2>Sottotitolo</h2>
+        <h3>Sottosottotitolo</h3>
+        <h4>Sottosottosottotitolo</h4>
+        <h5>Sottosottosottosottotitolo</h5>
+        <h6>Sottosottosottosottosottotitolo</h6>
+        <h7>Sottosottosottosottosottosottotitolo</h7>
+        <h2>Simulazione sito della scuola</h2>-->
+    
+        <nav> <!--Barra laterale simile a un menu'-->
+            <ul><!--ul elenco puntato, href="" serve a inserire il link di qualsiasi cosa (foto, video, siti, o altre pagine del progetto)-->
+                <li><a href="https://www.mcdonalds.it/ristorante/marche/ancona/jesi">Informatica</a></li>
+                <li><a href="https://kingattitude.it/?gad_source=1&gad_campaignid=18887616383&gbraid=0AAAAACvOJW57ehhbGkbK7Qa68-bj1D8bU&gclid=CjwKCAjwgeLHBhBuEiwAL5gNES9OyN7nCIOILh4FS0oZ3PgDRduJu7hMWmCBYyHofYpiGbEo3vIP-BoCc-0QAvD_BwE">Sistemi</a></li>
+                <li><a href="">Tpsit</a></li>
+                <li><a href="">Italiano</a></li>
+                <li><a href="">Matematica</a></li>
+                <li><a href="">Inglese</a></li>
+                <li><a href="">Scienze Motorie</a></li>
+                <li><a href="">Storia</a></li>
+                <li><a href="">GPOI</a></li>
+                <li><a href="">Religione</a></li>
+                <li><a href="pcto.html">PCTO</a></li>
+                <li><a href="progettoAnno.html">Progetto dell'anno</a></li><!--li serve come riga di qualcosa-->
+            </ul>
+        </nav>
+</header>
+<h1 id="titolo">Progetto dell'Anno</h1>
+
+<section>
+    <form name="Registrazione">
+        <label for="fname">Nome</label>
+        <input type="text" id="fname" name="fname" value=""><br><br>
+        
+        <label for="fname">Cognome</label>
+        <input type="text" id="fname" name="fname" value=""><br><br>
+
+        <label for="citta_nascita">Città di nascita</label>
+
+        <select name="citta_nascita" id="citta_nascita" required>
+            <option value=""></option>
+            <option value="Ancona">Ancona</option>
+            <option value="Jesi">Jesi</option>
+            <option value="Monsano">Monsano</option>
+        </select><br><br>
+
+        <label for="data_nascita">Data di nascita</label>
+        <input type="date" id="data_nascita" name="data_nascita" required><br><br>
+
+        <label for="genere">Genere</label><br><br>
+        <input type="radio" id="maschile" name="maschile" value="m" required>
+        <label for="maschile">Maschile</label><br><br>
+        <input type="radio" id="femminile" name="femminile" value="f">
+        <label for="femminile">Femminile</label><br><br>
+
+        <input type="button" value="Invio" onclick="stampadati()">
+
+
+
+
+
+    </form>
+</section>
+
+
+
+    
+
+<footer>
+    <p>
+    Indirizzo
+    Via Raffaello Sanzio, 8
+    60035 - JESI (AN)
+    </p>
+
+</footer>
+
+    
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</body>
+</html>
